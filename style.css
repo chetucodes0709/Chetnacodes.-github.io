@@ -1,175 +1,216 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 body {
-font-family: 'Inter', sans-serif;
-background-color: #0B0F1C;
-color: #ffffff;
-line-height: 1.6;
-padding: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #0B0F1C;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 20px;
 }
-/* Main Container */
+
+
+/* ================= MAIN CONTAINER ================= */
+
 .container {
-max-width: 1100px;
-margin: 0 auto;
-background-color: #151F2E;
-border: 2px solid deepskyblue;
-border-radius: 40px;
-padding: 40px 45px;
-box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #151F2E;
+    border: 2px solid deepskyblue;
+    border-radius: 40px;
+    padding: 40px 45px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
 }
-/* Header */
+
+
+/* ================= HEADER ================= */
+
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-bottom: 20px;
-border-bottom: 2px solid #394456;
-flex-wrap: wrap;
-gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #394456;
+    flex-wrap: wrap;
+    gap: 15px;
 }
+
 .logo a {
-font-size: 1.8rem;
-font-weight: 900;
-text-decoration: none;
-color: deepskyblue;
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: deepskyblue;
 }
+
 .logo a span {
-color: #e85d75;
+    color: #e85d75;
 }
+
 nav {
-display: flex;
-gap: 20px;
-flex-wrap: wrap;
-justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 nav a {
-text-decoration: none;
-font-weight: 600;
-color: deepskyblue;
-transition: color 0.3s ease;
-font-size: 0.95rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: deepskyblue;
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
 }
+
 nav a:hover {
-color: #e85d75;
+    color: #e85d75;
 }
-/* Hero */
+
+
+/* ================= HERO ================= */
+
 .hero {
-text-align: center;
-padding: 70px 0 60px;
+    text-align: center;
+    padding: 70px 0 60px;
 }
+
 .hero .greeting {
-font-size: 1.1rem;
-color: #9ca8b8;
-margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #9ca8b8;
+    margin-bottom: 8px;
 }
+
 .hero h1 {
-font-size: 4rem;
-font-weight: 900;
-margin-bottom: 10px;
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
+
 .hero h1 span {
-background: linear-gradient(135deg, #e85d75, #ff8fa3);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: linear-gradient(135deg, #e85d75, #ff8fa3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 .hero .subtitle {
-font-size: 1.35rem;
-color: #d1d7df;
-margin-bottom: 10px;
+    font-size: 1.35rem;
+    color: #d1d7df;
+    margin-bottom: 10px;
 }
+
 .hero .subtitle span {
-font-weight: 700;
-color: deepskyblue;
+    font-weight: 700;
+    color: deepskyblue;
 }
+
 .hero .tagline {
-max-width: 700px;
-margin: 15px auto 30px;
-font-size: 1rem;
-color: #9ca8b8;
+    max-width: 700px;
+    margin: 15px auto 30px;
+    font-size: 1rem;
+    color: #9ca8b8;
 }
-/* Buttons */
+
+
+/* ================= BUTTONS ================= */
+
 .hero-buttons {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
+
 .btn {
-display: inline-block;
-padding: 12px 28px;
-border-radius: 50px;
-font-weight: 600;
-text-decoration: none;
-transition: all 0.3s ease;
-margin: 5px;
-cursor: pointer;
-border: none;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
 }
+
 .btn-primary {
-background: #e85d75;
-color: #ffffff;
+    background: #e85d75;
+    color: #ffffff;
 }
+
 .btn-primary:hover {
-background: #c0395a;
-transform: translateY(-3px);
-box-shadow: 0 10px 25px rgba(232, 93, 117, 0.25);
+    background: #c0395a;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(232, 93, 117, 0.25);
 }
+
 .btn-outline {
-background: transparent;
-color: deepskyblue;
-border: 2px solid deepskyblue;
+    background: transparent;
+    color: deepskyblue;
+    border: 2px solid deepskyblue;
 }
+
 .btn-outline:hover {
-background: deepskyblue;
-color: #0B0F1C;
-transform: translateY(-3px);
+    background: deepskyblue;
+    color: #0B0F1C;
+    transform: translateY(-3px);
 }
+
 .btn-small {
-padding: 10px 20px;
-font-size: 0.85rem;
+    padding: 10px 20px;
+    font-size: 0.85rem;
 }
-/* Section Titles */
+
+
+/* ================= SECTION TITLES ================= */
+
 .section-title {
-font-size: 2.5rem;
-font-weight: 800;
-text-align: center;
-margin-bottom: 45px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 45px;
 }
+
 .section-title span {
-color: #e85d75;
+    color: #e85d75;
 }
-/* About */
+
+
+/* ================= ABOUT ================= */
+
 .about {
     padding: 50px 0;
 }
+
 .about-grid {
-display: grid;
-grid-template-columns: 1fr 2fr;
-gap: 50px;
-align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    align-items: center;
 }
+
 .about-image {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 .about-image img {
-width:180px;
-height:180px;
-object-fit:cover;
-border-radius: 50%;
-border:2px solid deepskyblue;
-display:block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid deepskyblue;
+    display: block;
 }
 
 .profile-imoji {
-font-size: 6rem;
+    font-size: 6rem;
     text-align: center;
     background: #202c3d;
     width: 180px;
@@ -216,7 +257,8 @@ font-size: 6rem;
 }
 
 
-/* Skills */
+/* ================= SKILLS ================= */
+
 .skills {
     padding: 50px 0;
 }
@@ -259,14 +301,15 @@ font-size: 6rem;
 }
 
 
-/* Projects */
+/* ================= PROJECTS ================= */
+
 .projects {
     padding: 50px 0;
 }
 
 .project-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
@@ -277,6 +320,11 @@ font-size: 6rem;
     text-align: center;
     border: 1px solid #344257;
     transition: all 0.3s ease;
+
+    /* Makes cards look balanced even when descriptions differ */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-card:hover {
@@ -299,17 +347,26 @@ font-size: 6rem;
 .project-card p {
     color: #aeb8c5;
     margin-bottom: 20px;
+    font-size: 0.92rem;
 }
 
 .project-links {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+    gap: 8px;
     flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.project-links .btn {
+    min-width: 105px;
+    text-align: center;
 }
 
 
-/* Contact */
+/* ================= CONTACT ================= */
+
 .contact {
     padding: 50px 0;
 }
@@ -365,7 +422,8 @@ font-size: 6rem;
 }
 
 
-/* Footer */
+/* ================= FOOTER ================= */
+
 footer {
     margin-top: 40px;
     padding-top: 25px;
@@ -399,7 +457,8 @@ footer p {
 }
 
 
-/* Responsive */
+/* ================= TABLET ================= */
+
 @media (max-width: 768px) {
 
     body {
@@ -473,15 +532,29 @@ footer p {
 }
 
 
-/* Small Mobile */
+/* ================= SMALL MOBILE ================= */
+
 @media (max-width: 400px) {
+
+    body {
+        padding: 7px;
+    }
 
     .container {
         padding: 18px 12px;
+        border-radius: 22px;
+    }
+
+    .hero {
+        padding: 40px 0 35px;
     }
 
     .hero h1 {
         font-size: 2.2rem;
+    }
+
+    .hero .subtitle {
+        font-size: 0.95rem;
     }
 
     .section-title {
@@ -509,7 +582,40 @@ footer p {
         padding: 22px 15px;
     }
 
+    .project-card h3 {
+        font-size: 1.15rem;
+    }
+
+    .project-card p {
+        font-size: 0.86rem;
+    }
+
+    .project-links {
+        gap: 4px;
+    }
+
+    .project-links .btn {
+        min-width: 100px;
+        padding: 10px 16px;
+        font-size: 0.85rem;
+    }
+
     .about-stats {
         gap: 30px;
+    }
+
+    .about-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-imoji {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 250px;
     }
 }
